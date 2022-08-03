@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta http-equiv="refresh" content="10"> 
+    <title>Output</title>
+
+    <style>
+        body {
+          margin: 5%;
+        }
+        
+        h1 {
+          color: rgb(36, 19, 19);
+          font-weight: bolder;
+          font-size: 3rem;
+        }
+        #container{
+            text-align: justify;
+            position: relative;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0% 3% 5% 0%;
+            font-style: oblique;
+        }
+        /*h3{
+            font-size: 1.5rem;
+            line-height: 3rem;
+        } */
+        .ph_bar{
+            background-color: lightgreen;
+        }
+        /* .red{
+          background-color: red !important;
+        }
+        .green{
+          background-color: greenyellow !important;
+        } */
+        </style>
+
+</head>
+<body>
+  
+  
+    <!-- <h1 id="ph_val"></h1> -->
+    <!-- <div id="container"><h3 id="ph_desc"></h3></div> -->
+    <!-- <h1 id="perce"></h1> -->
+
+    <h1>WATER LEVEL: </h1><br>
+    <h2 id="perce"></h2>
+    <div class="w3-light-grey w3-round-xlarge">
+      <div class="w3-container w3-blue w3-round-xlarge" id="percen" style="width:5%">5%</div>
+    </div>
+    
+    
+    <br><br><br><br>
+
+    <h1>pH:</h1>
+    <div class="w3-light-grey w3-round-xlarge">
+      <div class="w3-container ph_bar w3-green w3-round-xlarge" id="ph_val" style="width:5%">5%</div>
+    </div> <br>
+    <div id="container"><h3 id="ph_desc"></h3></div>
+
+    
+    
+    
+    <script src="output.js"></script>
+</body>
+</html>
